@@ -1,4 +1,6 @@
-# Build and run docker image for DEBrowser
+# Run DEBrowser from laptop and create a DNAnexus webapp version
+
+## Build and run docker image for DEBrowser locally
 
 ## Build docker image
 ```
