@@ -25,18 +25,20 @@ docker save -o debrowser.docker.gz scoughlan/debrowser
 
 Login and select the project to use on the platform or create a new empty project 
 
-Upload the save docker image to the project
+### Upload the saved docker image to the project
 ```
 dx upload debrowser.docker.gz
 ``` 
 
-Build the applet locally:
+### Build the applet locally:
 ```
 #Outside of debrowser-webapp folder run :
 dx build -f debrowser-webapp
 ```
 
-Go to the platform and run the applet 
+The applet should now appear in the project on the platform
+
+### Go to the platform and run the applet 
 
 
 ## User Guide
