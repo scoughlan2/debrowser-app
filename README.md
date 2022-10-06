@@ -1,4 +1,4 @@
-# Run DEBrowser from laptop and create a DNAnexus webapp version
+# DEBrowser DNAnexus app
 
 ## Build and run docker image for DEBrowser locally
 
@@ -7,7 +7,7 @@
 docker build . -t scoughlan/debrowser
 ```
 
-## Run docker container locally
+## To test - Run docker container locally
 ```
 docker run  -p 3838:3838 scoughlan/debrowser
 ```
