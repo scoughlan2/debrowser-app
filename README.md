@@ -2,8 +2,15 @@
 
 ## Build and run docker image for DEBrowser locally
 
+## Clone and enter the repo
+```
+git clone https://github.com/scoughlan2/debrowser-app.git
+cd debrowser-app
+```
+
 ## Build docker image
 ```
+#This needs the 'R' directory to be in the same location as the Dockerfile as is the case in this repository.
 docker build . -t scoughlan/debrowser
 ```
 
