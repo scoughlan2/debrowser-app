@@ -94,7 +94,7 @@ deServer <- function(input, output, session) {
     tryCatch(
     {
         if (!interactive()) {
-            options( shiny.maxRequestSize = 30 * 1024 ^ 2,
+            options( shiny.maxRequestSize = 100 * 1024 ^ 2,
                     shiny.fullstacktrace = FALSE, shiny.trace=FALSE, 
                     shiny.autoreload=TRUE, warn =-1)
         }
